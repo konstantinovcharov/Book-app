@@ -44,7 +44,7 @@ tr:nth-child(odd) td {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
 }
 
 label {
@@ -78,5 +78,27 @@ input{
 }
 
 .btn:hover {
+    background-color: #0069d9;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 40%;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;   
+}
+
+.fill{
+    background-color: red;
+}
+
+.add{
+    background-color: #5cb85c;
+}
+
+.remove{
     background-color: #0069d9;
 }
